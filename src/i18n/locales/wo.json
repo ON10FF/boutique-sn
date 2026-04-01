@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Kër gi",
+    "shop": "Bitik bi",
+    "cart": "Panier bi",
+    "orders": "Seen commande yi",
+    "account": "Sa kont",
+    "admin": "Gestion"
+  },
+  "product": {
+    "add_to_cart": "Dugal ci panier",
+    "out_of_stock": "Mënul jënd",
+    "price": "Prix",
+    "fcfa": "FCFA",
+    "details": "Xam ci kanam"
+  },
+  "cart": {
+    "title": "Sa panier",
+    "empty": "Panier bi dafa seer",
+    "total": "Yëpp",
+    "checkout": "Jënd",
+    "continue_shopping": "Dellu ci bitik",
+    "remove": "Fey"
+  },
+  "checkout": {
+    "title": "Jeex sa commande",
+    "your_info": "Sa xebaar yi",
+    "full_name": "Sa tur bu dëkk",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "delivery_zone": "Ëmb yi",
+    "payment_method": "Lan nga bëgg fey ak",
+    "wave": "Fey ak Wave",
+    "orange_money": "Orange Money",
+    "free_money": "Free Money",
+    "cash": "Fey bu ñëw ñëw",
+    "confirm_order": "Dëggël commande bi",
+    "order_summary": "Xebaar yu commande"
+  },
+  "order": {
+    "number": "Commande N°",
+    "status": {
+      "pending": "Xaar",
+      "confirmed": "Dëgg",
+      "preparing": "Dafa jëf",
+      "shipped": "Dem ci kanam",
+      "delivered": "Fàtte",
+      "cancelled": "Fey"
+    },
+    "whatsapp_message": "Salamalekum, dama bëgg xam commande bi N° {{number}}"
+  },
+  "common": {
+    "loading": "Xaar naa...",
+    "error": "Am na njuumte",
+    "retry": "Saytu",
+    "search": "Seet",
+    "filter": "Trier",
+    "close": "Tëj",
+    "save": "Denc",
+    "cancel": "Bàyyi",
+    "confirm": "Dëggël",
+    "delete": "Fey",
+    "edit": "Soppi"
+  },
+  "auth": {
+    "login": "Dugël",
+    "logout": "Génn",
+    "register": "Sos kont",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgot_password": "Boole nga sa mot de passe?"
+  }
+}

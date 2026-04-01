@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "cart": "Panier",
+    "orders": "Mes commandes",
+    "account": "Mon compte",
+    "admin": "Administration"
+  },
+  "product": {
+    "add_to_cart": "Ajouter au panier",
+    "out_of_stock": "Rupture de stock",
+    "price": "Prix",
+    "fcfa": "FCFA",
+    "details": "Détails"
+  },
+  "cart": {
+    "title": "Mon panier",
+    "empty": "Votre panier est vide",
+    "total": "Total",
+    "checkout": "Commander",
+    "continue_shopping": "Continuer mes achats",
+    "remove": "Supprimer"
+  },
+  "checkout": {
+    "title": "Finaliser la commande",
+    "your_info": "Vos informations",
+    "full_name": "Nom complet",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "delivery_zone": "Zone de livraison",
+    "payment_method": "Mode de paiement",
+    "wave": "Payer avec Wave",
+    "orange_money": "Orange Money",
+    "free_money": "Free Money",
+    "cash": "Paiement à la livraison",
+    "confirm_order": "Confirmer la commande",
+    "order_summary": "Récapitulatif"
+  },
+  "order": {
+    "number": "Commande N°",
+    "status": {
+      "pending": "En attente",
+      "confirmed": "Confirmée",
+      "preparing": "En préparation",
+      "shipped": "En livraison",
+      "delivered": "Livrée",
+      "cancelled": "Annulée"
+    },
+    "whatsapp_message": "Bonjour, je voudrais suivre ma commande N° {{number}}"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "edit": "Modifier"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "register": "Créer un compte",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgot_password": "Mot de passe oublié ?"
+  }
+}
