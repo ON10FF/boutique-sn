@@ -1,16 +1,61 @@
-# React + Vite
+# 🛍️ BoutiqueSN — E-commerce Local Sénégal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une boutique e-commerce moderne, simple et rapide, conçue spécifiquement
+pour le marché local sénégalais. Interface bilingue Français/Wolof,
+paiements mobile money intégrés, optimisée pour les connexions lentes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Fonctionnalités
 
-## React Compiler
+### Boutique
+- Catalogue produits avec filtres par catégorie
+- Recherche en temps réel
+- Fiche produit détaillée avec galerie d'images
+- Panier persistant (localStorage)
+- Interface bilingue 🇫🇷 Français / 🇸🇳 Wolof
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Paiements
+- 🔵 Wave — lien de paiement direct
+- 🟠 Orange Money — lien de paiement direct
+- 🟢 Free Money
+- 💵 Paiement cash à la livraison
 
-## Expanding the ESLint configuration
+### Commandes
+- Formulaire de commande simplifié
+- Sélection de zone de livraison avec frais calculés
+- Suivi de commande par numéro
+- Notification automatique via WhatsApp
+- Bouton WhatsApp flottant sur toutes les pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Dashboard Admin
+- Statistiques en temps réel (CA, commandes, clients)
+- CRUD produits complet (ajouter, modifier, supprimer)
+- Gestion des commandes avec changement de statut
+- Confirmation de paiement manuelle
+- Notification client via WhatsApp directement depuis l'admin
+- Gestion des zones de livraison
+- Rôles utilisateurs (admin / customer)
+
+### Technique
+- ⚡ PWA — installable sur mobile, fonctionne offline
+- 🚀 Optimisé connexion lente (skeleton loaders, cache, lazy loading)
+- 🔒 Authentification Supabase avec RLS
+- 📱 100% responsive (mobile first)
+
+---
+
+## 🛠️ Stack technique
+
+| Outil | Usage |
+|---|---|
+| React 18 + Vite | Frontend |
+| TailwindCSS | Styles |
+| Supabase | Backend, Auth, Base de données |
+| React Query | Cache & fetching |
+| Zustand | State management |
+| React Router v6 | Navigation |
+| i18next | Multilangue FR/WO |
+| Lucide React | Icônes |
+| vite-plugin-pwa | PWA & offline |
+
